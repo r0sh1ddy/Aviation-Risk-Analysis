@@ -86,14 +86,16 @@ Based on the analysis, here are the recommended actions:
 ## Repository Structure
 
 ```
+Aviation-Risk-Analysis/
+├── .gitignore                   <- .ipynb_checkpoints
 ├── README.md                    <- This file
 ├── data/                        <- Data files and analysis
 │   ├── aviation_dataset/        <- Original aviation data
-│   ├── images/                  <- Visualizations and plots
+│   ├── images/                  <- Visualizations
 │   ├── clean_data.csv          <- Final processed data
 │   ├── cleaned_data.csv        <- Cleaned dataset
 │   └── DSF-FT13 Hy-Phase-1-Project.ipynb  <- Jupyter notebook
-└── notebook/                   <- PDF Presentation
+└── notebook/                  <- PDF Presentation
 ```
 
 ## Files in This Repository
